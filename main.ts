@@ -21,5 +21,6 @@ input.onButtonPressed(Button.A, function () {
     PingUnit.Centimeters
   )
   basic.showNumber(distanceToObject)
+  basic.showString('cm.')
   basic.showIcon(IconNames.Happy)
 })
