@@ -1,6 +1,6 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
+Created by: Julianne Leblanc-Peltier
+Created on: Oct 2023
 This module is a Micro:bit MicroPython program
 """
 
@@ -21,5 +21,6 @@ while True:
     display.clear()
     distance_to_object = sensor.distance_cm()
     if button_a.is_pressed():
+        # if button a is pressed, displays the distance in centimeters and displays the happy face on the MicroBit.
         print(distance_to_object, "cm.")
         display.show(Image.HAPPY)
